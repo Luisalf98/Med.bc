@@ -1,4 +1,4 @@
-Plataforma web de historias clínicas basada en blockchain.
+#Plataforma web de historias clínicas basada en blockchain.
 
 Asesor: Pedro Wightman
 

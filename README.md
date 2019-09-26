@@ -1,6 +1,7 @@
 Plataforma web de historias clínicas basada en blockchain.
 
 Asesor: Pedro Wightman
+
 Autores:  -Luis Alfredo Pérez Linares
           -Giordy Romero
 

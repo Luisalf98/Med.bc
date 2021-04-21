@@ -1,13 +1,20 @@
 # Plataforma web de historias clínicas basada en blockchain.
 
-Asesor: Pedro Wightman
+Advisor: Pedro Wightman
 
-Autores:  -Luis Alfredo Pérez Linares
+Authors:  -Luis Alfredo Pérez Linares
           -Giordy Romero
+          -Omar Gutierrez
 
-Tecnologías usadas: Blockchain, Ethereum (Geth), Solidity (Smart Contracts), ReactJS (Javascript), HTML/CSS.
+Tecnologies: Blockchain, Ethereum (Geth), Solidity (Smart Contracts), ReactJS (Javascript), HTML/CSS.
 
-Este proyecto de grado de pregrado (Ingeniería de sistemas y computación), es un prototipo de un sistema que propone una plataforma de historias clínicas con políticas de privacidad de datos centrada en el paciente. Este sistema busca centralizar toda la información clínica de pacientes perteneciente a un área geográfica (ciudad, país, etc.), almacenándola en medios proporcionados por la tecnología Blockchain. Blockchain es una tecnología que por medio de una infraestructura de red, asegura la información en cuanto a integridad de los datos. Esto hace que un sistema sea seguro ante ataques de modificación o alteración de información.
+Blockchain-Based Electronic Medical Records (EMR) Prototype implementing patient-centered privacy policies. This system seeks to centralize all medical information from patients on a geographical area (City, Country, etc.). The use of Blockchain in this architecture aims to ensure information safety regarding data modification or alteration.
 
-También se utilizó este prototipo como base para una tesis doctoral, cuyo trabajo además, trajo como resultado el artículo que se encuentra en el siguiente enlace:
+EMR information in our system uses HL7 (EMR/EHR Standard), so it would be easier to integrate systems from different entities and make them part of the network.
+
+As information in the Blockchain is public and shared among all computers in the network, our system encrypts HL7 data before storing it in the blockchain using symetric AES Cipher Algorithm. The patient who owns the data provides a password/key to encrypt HL7 data when storing it or decrypt it when retrieving it. All users who knows the patient's password/key, will be able to get the patient's EMR in decrypted HL7 format. Patients can share their Password/Key with other users (let's say his Doctor), so they can get access to the patient's decrypted information.
+
+Also, through logic coded in the blockchain contrats, we implemented a permission system in which patients can choose the users that will be able to get his information, and the amount of information they will see. 
+
+This project started as an undergradute (Systems Engineering Degree) project, and it was continued later on a doctoral thesis. As an outcome of that work we got an article published. There you can find more detail about the architecture proposed in this system. The paper can be found in the following link.
 https://www.mdpi.com/1660-4601/17/19/7132

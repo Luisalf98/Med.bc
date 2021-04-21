@@ -6,7 +6,7 @@ Authors:  -Luis Alfredo Pérez Linares
           -Giordy Romero
           -Omar Gutierrez
 
-Tecnologies: Blockchain, Ethereum (Geth), Solidity (Smart Contracts), ReactJS (Javascript), HTML/CSS.
+Technologies: Blockchain, Ethereum (Geth), Solidity (Smart Contracts), ReactJS (Javascript), HTML/CSS.
 
 Blockchain-Based Electronic Medical Records (EMR) Prototype implementing patient-centered privacy policies. This system seeks to centralize all medical information from patients on a geographical area (City, Country, etc.). The use of Blockchain in this architecture aims to ensure information safety regarding data modification or alteration.
 
